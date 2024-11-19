@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 def add(a, b):
-    if not isinstance(a, int) or not isinstance(b, int):
-        raise TypeError("Both a and b must be integers")
-    return a + b
+    """My addition function
 
-def fake_add(a, b):
-    if not isinstance(a, int) or not isinstance(b, int):
-        raise TypeError("Both a and b must be integers")
-    return a - b
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a + b
+    """
+    return a + b
