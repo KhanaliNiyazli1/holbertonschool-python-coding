@@ -5,5 +5,5 @@ def no_c(my_string):
         if i == "c" or i == "C":
             continue
         else:
-            result = result + i
+            result += i
     return result
